@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.container {
+  width: 50%;
+  margin: 2rem auto;
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  position: absolute;
+  padding: 0.09rem 0.25rem;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+button:hover {
+  filter: saturate(55%);
+}
+
+.cymbal {
+  background-color: rgb(255, 123, 123);
+}
+
+#crash {
+  top: 15%;
+  left: 18%;
+}
+
+#hiHat {
+  top: 30%;
+  right: 15%;
+}
+
+.foot {
+  background-color: rgb(193, 126, 255);
+}
+
+#bass {
+  bottom: 15%;
+  left: 48%;
+}
+
+.drum {
+  background-color: rgb(130, 218, 253);
+}
+
+#snare {
+  top: 38%;
+  right: 30%;
+}
+
+#floorTom {
+  top: 45%;
+  left: 29%;
+}
+
+#smallTom {
+  top: 24%;
+  right: 37%;
+}
+
+#medTom {
+  top: 24%;
+  left: 38%;
+}
+
+@media screen and (min-width: 1000px) {
+  button {
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  button {
+    font-size: 2rem;
+  }
+}
